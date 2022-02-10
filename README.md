@@ -1,4 +1,5 @@
 <h1 align="center">Countdown</h1>
+<img src="./src/assets/img/screenshot.png" align="center" />
 
 ## :dart: About
 
