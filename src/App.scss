@@ -5,17 +5,27 @@ main {
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 
   img {
     margin-left: 2rem;
   }
+
   @media (max-width: 1170px) {
     flex-direction: column;
 
     img {
       margin: 2rem 0;
       width: 400px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+
+    img {
+      margin: 2rem 0;
+      width: 300px;
     }
   }
 }
