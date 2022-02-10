@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --background: #e5e5e5;
+  --blue: #6c63ff;
+  --text-light: #c8c8c8;
+  --text-medium: #9c9ab6;
+  --text-dark: #4d4c59;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%; // 15px
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%; //  14px
+  }
+}
+
+body {
+  background: var(--backgrund);
+  -webkit-font-smoothing: antialiased;
+  background: #100816;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}

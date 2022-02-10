@@ -1,0 +1,29 @@
+.counter {
+  display: flex;
+  gap: 1rem;
+
+  .counter-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span.label {
+      font-size: 0.925rem;
+      color: var(--text-light);
+      margin-left: 2rem;
+      width: 100%;
+    }
+
+    span.value {
+      font-size: 4rem;
+      color: var(--white);
+    }
+
+    @media (max-width: 500px) {
+      span.value {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
