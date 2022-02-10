@@ -1,11 +1,3 @@
-export const addTwoDaysInActualDate = () => {
-  let year = new Date().getFullYear();
-  let month = new Date().getMonth();
-  let day = new Date().getDay();
-
-  return +new Date(`${year}-${month}-${day + day}`);
-};
-
 export type TimeLeft = {
   days: number;
   hours: number;
@@ -15,8 +7,9 @@ export type TimeLeft = {
 
 export const calculateTimeLeft = () => {
   let year = new Date().getFullYear();
+  let day = new Date().getDate() + 2;
 
-  const difference = +new Date(`${year}-2-12`) - +new Date();
+  const difference = +new Date(`${year}-2-${day}`) - +new Date();
 
   let timeLeft: TimeLeft = {} as TimeLeft;
 
