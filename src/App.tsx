@@ -1,16 +1,16 @@
-import { Counter } from "./components/Counter";
-import rocketSvg from "./assets/img/rocket.svg";
-import { ToastContainer, toast } from "react-toastify";
+import { Counter } from './components/Counter';
+import rocketSvg from './assets/img/rocket.svg';
+import { ToastContainer, toast } from 'react-toastify';
 
-import "react-toastify/dist/ReactToastify.css";
+import 'react-toastify/dist/ReactToastify.css';
 
-import "./App.scss";
+import './App.scss';
 
 export const App = () => {
   const notify = () =>
-    toast.info("Inscrição confirmada com sucesso!", {
+    toast.info('Inscrição confirmada com sucesso!', {
       closeButton: false,
-      theme: "colored",
+      theme: 'colored',
     });
 
   return (

@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import {
   calculateTimeLeft,
   formatterValuesWithTwoDigits,
-} from "../../utils/utils";
+} from '../../utils/utils';
 
-import "./styles.scss";
+import './styles.scss';
 
 export const Counter = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
