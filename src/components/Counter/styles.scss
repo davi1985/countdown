@@ -3,20 +3,31 @@
   gap: 1rem;
 
   .counter-item {
+    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0.25rem;
+    background: var(--blue);
 
     span.label {
-      font-size: 0.925rem;
-      color: var(--text-light);
+      font-size: 0.8rem;
+      color: var(--blue-dark);
       width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 0.1rem;
+      background: var(--white);
     }
 
     span.value {
+      width: 100%;
+      padding: 0 0.5rem;
       font-size: 4rem;
       color: var(--white);
+      text-align: center;
     }
 
     @media (max-width: 500px) {

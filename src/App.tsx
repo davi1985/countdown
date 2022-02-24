@@ -16,7 +16,7 @@ export const App = () => {
   return (
     <main>
       <div className="container">
-        <h1>Ready to launch in...</h1>
+        <h1>Ready to launch in</h1>
 
         <Counter />
 
