@@ -25,6 +25,3 @@ export const calculateTimeLeft = () => {
 
   return timeLeft;
 };
-
-export const formatterValuesWithTwoDigits = (value: number) =>
-  value < 10 ? `0${value}` : value;
