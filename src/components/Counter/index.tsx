@@ -14,26 +14,26 @@ export const Counter = () => {
     <div className="counter">
       <div className="counter-item">
         <span className="value">{String(timeLeft.days).padStart(2, '0')}</span>
-        <span className="label">Dias</span>
+        <span className="label">Days</span>
       </div>
 
       <div className="counter-item">
         <span className="value">{String(timeLeft.hours).padStart(2, '0')}</span>
-        <span className="label">Horas</span>
+        <span className="label">Hours</span>
       </div>
 
       <div className="counter-item">
         <span className="value">
           {String(timeLeft.minutes).padStart(2, '0')}
         </span>
-        <span className="label">Minutos</span>
+        <span className="label">Minutes</span>
       </div>
 
       <div className="counter-item">
         <span className="value">
           {String(timeLeft.seconds).padStart(2, '0')}
         </span>
-        <span className="label">Segundos</span>
+        <span className="label">Seconds</span>
       </div>
     </div>
   );

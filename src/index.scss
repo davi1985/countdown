@@ -5,6 +5,7 @@
 }
 
 :root {
+  --black: #000000;
   --white: #fff;
   --background: #e5e5e5;
   --blue: #6c63ff;
@@ -26,7 +27,7 @@ html {
 body {
   background: var(--backgrund);
   -webkit-font-smoothing: antialiased;
-  background: #100816;
+  background: #ffffff;
 }
 
 body,
