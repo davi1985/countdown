@@ -40,6 +40,10 @@ $ yarn start
 # The server will initialize in the <http://localhost:3000>
 ```
 
+## :memo: License
+
+This project is under the [MIT license](./LICENSE).
+
 Made with :heart: by <a href="https://github.com/davi1985" target="_blank">Davi Silva</a>
 
 &#xa0;
