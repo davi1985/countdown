@@ -6,7 +6,7 @@
 This a simple Countdown created using Vite, React, Typescript and Sass.
 <br />
 
-Demo: https://countdown-teal-zeta.vercel.app/
+Demo: https://countdown-davi1985.vercel.app
 
 ## :rocket: Technologies
 
